@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bon Bon\\SourceCode\\Repos\\movie-theater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83A2942D-A9B9-15FD-D0EF-15565757F96B}|movie-theater\\movie-theater.esproj|d:\\bon bon\\sourcecode\\repos\\movie-theater\\movie-theater\\backend\\services\\users\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{83A2942D-A9B9-15FD-D0EF-15565757F96B}|movie-theater\\movie-theater.esproj|solutionrelative:movie-theater\\backend\\services\\users\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".env.example",
+              "DocumentMoniker": "D:\\Bon Bon\\SourceCode\\Repos\\movie-theater\\movie-theater\\backend\\services\\users\\.env.example",
+              "RelativeDocumentMoniker": "movie-theater\\backend\\services\\users\\.env.example",
+              "ToolTip": "D:\\Bon Bon\\SourceCode\\Repos\\movie-theater\\movie-theater\\backend\\services\\users\\.env.example",
+              "RelativeToolTip": "movie-theater\\backend\\services\\users\\.env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-12T12:31:26.07Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

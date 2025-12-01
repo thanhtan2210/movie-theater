@@ -1,0 +1,5 @@
+{
+  "name": "Cinestarr",
+  "description": "A comprehensive cinema booking application featuring movie browsing, seat selection, secure payment, and user profile management.",
+  "requestFramePermissions": []
+}

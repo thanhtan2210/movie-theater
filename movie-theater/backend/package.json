@@ -1,0 +1,43 @@
+{
+  "name": "movie-theater-backend",
+  "version": "1.0.0",
+  "description": "Backend microservices for Movie Theater application",
+  "main": "gateway/server.js",
+  "scripts": {
+    "start:gateway": "node gateway/server.js",
+    "start:movies": "node services/movies/server.js",
+    "start:users": "node services/users/server.js",
+    "start:bookings": "node services/bookings/server.js",
+    "start:sms": "node sms/smsService.js",
+    "start:all": "concurrently \"npm run start:gateway\" \"npm run start:movies\" \"npm run start:users\" \"npm run start:bookings\"",
+    "dev:gateway": "nodemon gateway/server.js",
+    "dev:movies": "nodemon services/movies/server.js",
+    "dev:users": "nodemon services/users/server.js",
+    "dev:bookings": "nodemon services/bookings/server.js",
+    "dev:users": "nodemon services/users/server.js",
+    "dev:bookings": "nodemon services/bookings/server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "microservices",
+    "movie",
+    "theater",
+    "booking"
+  ],
+  "author": "thanhtan2210",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "axios": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "sms-service",
+    "version": "1.0.0",
+    "description": "SMS service for movie theater application",
+    "main": "smsService.js",
+    "scripts": {
+        "start": "node smsService.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "sms",
+        "twilio",
+        "notification"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "twilio": "^3.88.0",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "jest": "^29.0.0"
+    }
+}
